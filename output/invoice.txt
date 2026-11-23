@@ -1,0 +1,50 @@
+
+========================================
+             PS-002 INVOICE
+========================================
+
+Order ID       : TESTIGST23
+Customer ID    : C003
+Customer Name  : Priya
+Customer Tier  : REGULAR
+Delivery State : Telangana
+
+----------------------------------------
+PRODUCT DETAILS
+----------------------------------------
+
+Product        : Notebook
+SKU            : P005
+Quantity       : 2
+Unit Price     : Rs. 80.0
+Category Disc. : Rs. 0.00
+Coupon Disc.   : Rs. 0.00
+Bank Disc.     : Rs. 0.00
+PRIME Disc.    : Rs. 0.00
+BOGO Disc.     : Rs. 0.00
+GST (12.0%)       : Rs. 19.20
+CGST           : Rs. 0.00
+SGST           : Rs. 0.00
+IGST           : Rs. 19.20
+Product Total  : Rs. 160.00
+----------------------------------------
+
+Product Amount : Rs. 160.00
+Total Discount : Rs. 0.00
+BOGO Free Items: 0
+
+GST Amount     : Rs. 19.20
+CGST Total     : Rs. 0.00
+SGST Total     : Rs. 0.00
+IGST Total     : Rs. 19.20
+
+Shipping       : Rs. 49.00
+
+========================================
+FINAL AMOUNT   : Rs. 228.20
+========================================
+
+Order Status: CREATED
+
+       THANK YOU FOR SHOPPING!
+========================================
