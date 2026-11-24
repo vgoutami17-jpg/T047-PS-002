@@ -1,0 +1,41 @@
+sku_id,name,category,mrp,selling_price,stock,weight_g,on_sale,gst_slab,returnable
+SKU-001,Bluetooth Earbuds X2,ELECTRONICS,3999.00,2499.00,15,120,false,18,true
+SKU-002,Smart Watch Fit,ELECTRONICS,6999.00,4999.00,28,180,false,18,true
+SKU-003,Power Bank 20000mAh,ELECTRONICS,2499.00,1799.00,40,420,true,18,true
+SKU-004,USB-C Cable 1m,ELECTRONICS,499.00,299.00,40,40,false,18,true
+SKU-005,Wireless Mouse,ELECTRONICS,1299.00,899.00,49,110,false,18,true
+SKU-006,Mechanical Keyboard,ELECTRONICS,5499.00,3999.00,14,950,false,18,true
+SKU-007,Bluetooth Speaker Mini,ELECTRONICS,2999.00,1999.00,22,600,true,18,true
+SKU-008,Cotton T-Shirt Navy,FASHION,999.00,599.00,46,220,false,5,true
+SKU-009,Cotton T-Shirt White,FASHION,999.00,649.00,47,220,false,5,true
+SKU-010,Slim Fit Jeans,FASHION,2499.00,1499.00,43,650,false,12,true
+SKU-011,Linen Kurta,FASHION,1899.00,1299.00,34,300,false,12,true
+SKU-012,Sports Socks (3 pack),FASHION,499.00,349.00,58,120,false,5,true
+SKU-013,Running Shoes,FASHION,3999.00,2799.00,44,900,true,18,true
+SKU-014,Printed Scarf,FASHION,799.00,449.00,43,90,false,5,true
+SKU-015,Basmati Rice 5kg,GROCERY,749.00,699.00,54,5000,false,5,false
+SKU-016,Sunflower Oil 1L,GROCERY,189.00,169.00,57,950,false,5,false
+SKU-017,Toor Dal 1kg,GROCERY,199.00,179.00,57,1000,false,0,false
+SKU-018,Filter Coffee 500g,GROCERY,399.00,349.00,39,520,false,5,false
+SKU-019,Almonds 500g,GROCERY,899.00,749.00,56,510,false,12,false
+SKU-020,Green Tea 100 bags,GROCERY,499.00,399.00,57,250,false,5,false
+SKU-021,Aerated Drink 2L (pack of 2),GROCERY,220.00,199.00,45,4200,false,28,false
+SKU-022,Data Structures in Java,BOOKS,899.00,749.00,36,800,false,0,true
+SKU-023,Clean Code,BOOKS,699.00,549.00,23,600,false,0,true
+SKU-024,The Psychology of Money,BOOKS,399.00,299.00,8,350,false,0,true
+SKU-025,Atomic Habits,BOOKS,599.00,449.00,47,400,false,0,true
+SKU-026,System Design Primer,BOOKS,1299.00,1099.00,13,900,false,0,true
+SKU-027,Kannada Phrasebook,BOOKS,249.00,199.00,15,200,false,0,true
+SKU-028,Non-stick Tawa 28cm,HOME,1499.00,1199.00,26,1400,false,18,true
+SKU-029,Steel Water Bottle 1L,HOME,799.00,499.00,60,350,false,18,true
+SKU-030,Bedsheet Set Queen,HOME,2499.00,1699.00,14,1200,false,12,true
+SKU-031,Pressure Cooker 5L,HOME,3299.00,2599.00,36,2600,false,18,true
+SKU-032,LED Table Lamp,HOME,1899.00,1299.00,8,700,false,18,true
+SKU-033,Cast Iron Kadai,HOME,2199.00,1899.00,60,3200,false,18,true
+SKU-034,Storage Box Set (6),HOME,999.00,799.00,51,1800,true,18,true
+SKU-035,Face Wash 150ml,BEAUTY,349.00,299.00,39,170,false,18,false
+SKU-036,Sunscreen SPF50,BEAUTY,599.00,499.00,51,120,false,18,false
+SKU-037,Hair Oil 200ml,BEAUTY,299.00,249.00,28,230,false,18,false
+SKU-038,Perfume 100ml,BEAUTY,2499.00,1799.00,21,300,true,18,false
+SKU-039,Lip Balm,BEAUTY,199.00,149.00,33,30,false,18,false
+SKU-040,Shampoo 650ml,BEAUTY,749.00,599.00,24,700,false,18,false

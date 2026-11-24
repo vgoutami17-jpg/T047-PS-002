@@ -1,0 +1,11 @@
+customer_id,name,tier,state,city,mobile,wallet_balance
+CUST-001,Varsha Shetty,PRIME,Karnataka,Madurai,8055761698,1200.00
+CUST-002,Ashok DSouza,PRIME,Karnataka,Visakhapatnam,9684697880,0.00
+CUST-003,Suresh Mathew,REGULAR,Karnataka,Surat,6967273177,250.00
+CUST-004,Gayathri Acharya,REGULAR,Tamil Nadu,Lucknow,9663440029,1200.00
+CUST-005,Namratha Joshi,REGULAR,Maharashtra,Mysuru,9787680457,0.00
+CUST-006,Kalpana DSouza,REGULAR,Kerala,Mysuru,9267147513,1200.00
+CUST-007,Girish Sharma,PRIME,Assam,Delhi,6798193319,0.00
+CUST-008,Gayathri Gupta,REGULAR,Delhi,Hyderabad,6599728379,0.00
+CUST-009,Pooja Banerjee,REGULAR,Telangana,Surat,7294866283,1200.00
+CUST-010,Naveen Das,PRIME,Karnataka,Delhi,6550087547,250.00

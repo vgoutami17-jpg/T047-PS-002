@@ -1,0 +1,285 @@
+line_no,command,entity_id,status,error_code,message
+4,CART_CREATE,CART-0002,OK,,Cart created
+5,CART_ADD,CART-0002,OK,,Product added and stock reserved
+6,CART_ADD,CART-0002,OK,,Product added and stock reserved
+7,CHECKOUT,CART-0002,OK,,Checkout successful. Order ORD-0002. Total Rs. 2651.88
+8,CART_CREATE,CART-0001,OK,,Cart created
+9,CART_ADD,CART-0001,OK,,Product added and stock reserved
+10,CHECKOUT,CART-0001,OK,,Checkout successful. Order ORD-0001. Total Rs. 384.18
+11,ORDER_STATUS,ORD-0002,OK,,Order status updated to CONFIRMED
+12,ORDER_STATUS,ORD-0001,OK,,Order status updated to CONFIRMED
+14,CART_CREATE,CART-0003,OK,,Cart created
+15,CART_ADD,CART-0003,OK,,Product added and stock reserved
+16,CART_ADD,CART-0003,OK,,Product added and stock reserved
+17,CHECKOUT,CART-0003,OK,,Checkout successful. Order ORD-0003. Total Rs. 940.46
+18,ORDER_STATUS,ORD-0003,OK,,Order status updated to CONFIRMED
+19,ORDER_STATUS,ORD-0002,OK,,Order status updated to PACKED
+20,ORDER_STATUS,ORD-0001,OK,,Order status updated to PACKED
+21,ORDER_STATUS,ORD-0002,OK,,Order status updated to SHIPPED
+22,ORDER_STATUS,ORD-0001,OK,,Order status updated to SHIPPED
+23,CART_CREATE,CART-0004,OK,,Cart created
+24,CART_ADD,CART-0004,OK,,Product added and stock reserved
+25,CART_ADD,CART-0004,OK,,Product added and stock reserved
+26,CHECKOUT,CART-0004,OK,,Checkout successful. Order ORD-0004. Total Rs. 5307.64
+27,ORDER_STATUS,ORD-0004,OK,,Order status updated to CONFIRMED
+29,ORDER_STATUS,ORD-0003,OK,,Order status updated to PACKED
+30,ORDER_STATUS,ORD-0003,OK,,Order status updated to SHIPPED
+31,CART_CREATE,CART-0006,OK,,Cart created
+32,CART_ADD,CART-0006,OK,,Product added and stock reserved
+33,CART_ADD,CART-0006,OK,,Product added and stock reserved
+34,CART_ADD,CART-0006,OK,,Product added and stock reserved
+35,APPLY_COUPON,CART-0006,OK,,Coupon recorded for checkout validation
+36,CHECKOUT,CART-0006,OK,,Checkout successful. Order ORD-0006. Total Rs. 4128.99
+37,ORDER_STATUS,ORD-0006,OK,,Order status updated to CONFIRMED
+38,ORDER_STATUS,ORD-0004,OK,,Order status updated to PACKED
+39,CART_CREATE,CART-0005,OK,,Cart created
+40,CART_ADD,CART-0005,OK,,Product added and stock reserved
+41,CART_ADD,CART-0005,OK,,Product added and stock reserved
+42,CHECKOUT,CART-0005,OK,,Checkout successful. Order ORD-0005. Total Rs. 9555.88
+43,ORDER_STATUS,ORD-0005,OK,,Order status updated to CONFIRMED
+45,ORDER_STATUS,ORD-0004,OK,,Order status updated to SHIPPED
+46,ORDER_STATUS,ORD-0006,OK,,Order status updated to PACKED
+47,CART_CREATE,CART-0007,OK,,Cart created
+48,CART_ADD,CART-0007,OK,,Product added and stock reserved
+49,APPLY_COUPON,CART-0007,OK,,Coupon recorded for checkout validation
+50,CART_ADD,CART-0007,OK,,Product added and stock reserved
+51,CHECKOUT,CART-0007,OK,,Checkout successful. Order ORD-0007. Total Rs. 2737.84
+52,ORDER_STATUS,ORD-0007,OK,,Order status updated to CONFIRMED
+53,CART_CREATE,CART-0008,OK,,Cart created
+54,CART_ADD,CART-0008,OK,,Product added and stock reserved
+55,CART_ADD,CART-0008,OK,,Product added and stock reserved
+56,APPLY_COUPON,CART-0008,OK,,Coupon recorded for checkout validation
+57,CHECKOUT,CART-0008,OK,,Checkout successful. Order ORD-0008. Total Rs. 2077.05
+58,ORDER_STATUS,ORD-0008,OK,,Order status updated to CONFIRMED
+59,ORDER_STATUS,ORD-0006,OK,,Order status updated to SHIPPED
+60,ORDER_STATUS,ORD-0005,OK,,Order status updated to PACKED
+62,ORDER_STATUS,ORD-0005,OK,,Order status updated to SHIPPED
+63,ORDER_STATUS,ORD-0007,OK,,Order status updated to PACKED
+64,ORDER_STATUS,ORD-0008,OK,,Order status updated to PACKED
+65,CART_CREATE,CART-0009,OK,,Cart created
+66,CART_ADD,CART-0009,OK,,Product added and stock reserved
+67,CART_ADD,CART-0009,OK,,Product added and stock reserved
+68,CART_ADD,CART-0009,OK,,Product added and stock reserved
+69,CART_ADD,CART-0009,OK,,Product added and stock reserved
+70,CART_ADD,CART-0009,OK,,Product added and stock reserved
+71,CHECKOUT,CART-0009,OK,,Checkout successful. Order ORD-0009. Total Rs. 3858.00
+72,ORDER_STATUS,ORD-0009,OK,,Order status updated to CONFIRMED
+73,ORDER_STATUS,ORD-0007,OK,,Order status updated to SHIPPED
+74,CART_CREATE,CART-0010,OK,,Cart created
+75,CART_ADD,CART-0010,OK,,Product added and stock reserved
+76,CART_ADD,CART-0010,OK,,Product added and stock reserved
+77,CART_ADD,CART-0010,OK,,Product added and stock reserved
+78,CHECKOUT,CART-0010,OK,,Checkout successful. Order ORD-0010. Total Rs. 2820.38
+79,ORDER_STATUS,ORD-0010,OK,,Order status updated to CONFIRMED
+80,ORDER_STATUS,ORD-0002,OK,,Order status updated to DELIVERED
+81,ORDER_STATUS,ORD-0001,OK,,Order status updated to DELIVERED
+82,ORDER_STATUS,ORD-0008,OK,,Order status updated to SHIPPED
+84,ORDER_STATUS,ORD-0009,OK,,Order status updated to PACKED
+85,ORDER_STATUS,ORD-0010,OK,,Order status updated to PACKED
+86,CART_CREATE,CART-0011,OK,,Cart created
+87,CART_ADD,CART-0011,OK,,Product added and stock reserved
+88,CART_ADD,CART-0011,OK,,Product added and stock reserved
+89,CHECKOUT,CART-0011,OK,,Checkout successful. Order ORD-0011. Total Rs. 3202.94
+90,ORDER_STATUS,ORD-0011,OK,,Order status updated to CONFIRMED
+91,CART_CREATE,CART-0012,OK,,Cart created
+92,CART_ADD,CART-0012,OK,,Product added and stock reserved
+93,CART_ADD,CART-0012,OK,,Product added and stock reserved
+94,ORDER_STATUS,ORD-0009,OK,,Order status updated to SHIPPED
+95,CHECKOUT,CART-0012,REJECTED,CART_EXPIRED_OR_INACTIVE,Cart is not active or reservation expired
+96,ORDER_STATUS,ORD-0010,OK,,Order status updated to SHIPPED
+97,ORDER_STATUS,ORD-0004,OK,,Order status updated to DELIVERED
+99,ORDER_STATUS,ORD-0011,OK,,Order status updated to PACKED
+100,ORDER_STATUS,ORD-0003,OK,,Order status updated to DELIVERED
+101,CART_CREATE,CART-0014,OK,,Cart created
+102,CART_ADD,CART-0014,OK,,Product added and stock reserved
+103,APPLY_COUPON,CART-0014,OK,,Coupon recorded for checkout validation
+104,APPLY_COUPON,CART-0014,REJECTED,COUPON_ALREADY_APPLIED,Only one coupon is allowed
+105,CHECKOUT,CART-0014,OK,,Checkout successful. Order ORD-0014. Total Rs. 3600.91
+106,ORDER_STATUS,ORD-0006,OK,,Order status updated to DELIVERED
+107,ORDER_STATUS,ORD-0011,OK,,Order status updated to SHIPPED
+108,ORDER_STATUS,ORD-0014,OK,,Order status updated to CONFIRMED
+109,CANCEL,ORD-0011,REJECTED,CANCEL_NOT_ALLOWED,Order cannot be cancelled in this state
+110,CART_CREATE,CART-0013,OK,,Cart created
+111,CART_ADD,CART-0013,OK,,Product added and stock reserved
+112,CART_ADD,CART-0013,OK,,Product added and stock reserved
+113,CART_ADD,CART-0013,OK,,Product added and stock reserved
+114,APPLY_COUPON,CART-0013,OK,,Coupon recorded for checkout validation
+115,CHECKOUT,CART-0013,OK,,Checkout successful. Order ORD-0013. Total Rs. 3006.00
+116,ORDER_STATUS,ORD-0013,OK,,Order status updated to CONFIRMED
+117,ORDER_STATUS,ORD-0005,OK,,Order status updated to DELIVERED
+119,CART_CREATE,CART-0015,OK,,Cart created
+120,CART_ADD,CART-0015,OK,,Product added and stock reserved
+121,CART_ADD,CART-0015,OK,,Product added and stock reserved
+122,APPLY_COUPON,CART-0015,OK,,Coupon recorded for checkout validation
+123,CHECKOUT,CART-0015,OK,,Checkout successful. Order ORD-0015. Total Rs. 3632.63
+124,ORDER_STATUS,ORD-0015,OK,,Order status updated to CONFIRMED
+125,ORDER_STATUS,ORD-0014,OK,,Order status updated to PACKED
+126,ORDER_STATUS,ORD-0007,OK,,Order status updated to DELIVERED
+127,ORDER_STATUS,ORD-0008,OK,,Order status updated to DELIVERED
+128,ORDER_STATUS,ORD-0014,OK,,Order status updated to SHIPPED
+129,ORDER_STATUS,ORD-0013,OK,,Order status updated to PACKED
+130,CART_CREATE,CART-0016,OK,,Cart created
+131,CART_ADD,CART-0016,OK,,Product added and stock reserved
+132,CART_ADD,CART-0016,OK,,Product added and stock reserved
+133,CHECKOUT,CART-0016,OK,,Checkout successful. Order ORD-0016. Total Rs. 748.00
+134,ORDER_STATUS,ORD-0016,OK,,Order status updated to CONFIRMED
+135,CANCEL,ORD-0016,OK,,Order cancelled; fee Rs. 0.00
+136,ORDER_STATUS,ORD-0013,OK,,Order status updated to SHIPPED
+138,ORDER_STATUS,ORD-0015,OK,,Order status updated to PACKED
+139,ORDER_STATUS,ORD-0015,OK,,Order status updated to SHIPPED
+140,ORDER_STATUS,ORD-0009,OK,,Order status updated to DELIVERED
+141,ORDER_STATUS,ORD-0010,OK,,Order status updated to DELIVERED
+142,CART_CREATE,CART-0018,OK,,Cart created
+143,CART_ADD,CART-0018,OK,,Product added and stock reserved
+144,CART_ADD,CART-0018,OK,,Product added and stock reserved
+145,CHECKOUT,CART-0018,OK,,Checkout successful. Order ORD-0018. Total Rs. 941.64
+146,ORDER_STATUS,ORD-0018,OK,,Order status updated to CONFIRMED
+147,CART_CREATE,CART-0017,OK,,Cart created
+148,CART_ADD,CART-0017,OK,,Product added and stock reserved
+149,CHECKOUT,CART-0017,OK,,Checkout successful. Order ORD-0017. Total Rs. 1532.82
+150,ORDER_STATUS,ORD-0017,OK,,Order status updated to CONFIRMED
+152,ORDER_STATUS,ORD-0018,OK,,Order status updated to PACKED
+153,ORDER_STATUS,ORD-0017,OK,,Order status updated to PACKED
+154,CART_CREATE,CART-0020,OK,,Cart created
+155,CART_ADD,CART-0020,OK,,Product added and stock reserved
+156,CHECKOUT,CART-0020,OK,,Checkout successful. Order ORD-0020. Total Rs. 1902.88
+157,CANCEL,ORD-0017,OK,,Order cancelled; fee Rs. 30.66
+158,ORDER_STATUS,ORD-0020,OK,,Order status updated to CONFIRMED
+159,ORDER_STATUS,ORD-0018,OK,,Order status updated to SHIPPED
+160,CART_CREATE,CART-0019,OK,,Cart created
+161,CART_ADD,CART-0019,OK,,Product added and stock reserved
+162,CART_ADD,CART-0019,OK,,Product added and stock reserved
+163,CHECKOUT,CART-0019,OK,,Checkout successful. Order ORD-0019. Total Rs. 2058.39
+164,ORDER_STATUS,ORD-0019,OK,,Order status updated to CONFIRMED
+165,CANCEL,ORD-0018,REJECTED,CANCEL_NOT_ALLOWED,Order cannot be cancelled in this state
+167,ORDER_STATUS,ORD-0020,OK,,Order status updated to PACKED
+168,ORDER_STATUS,ORD-0019,OK,,Order status updated to PACKED
+169,ORDER_STATUS,ORD-0020,OK,,Order status updated to SHIPPED
+170,ORDER_STATUS,ORD-0014,OK,,Order status updated to DELIVERED
+171,ORDER_STATUS,ORD-0019,OK,,Order status updated to SHIPPED
+172,ORDER_STATUS,ORD-0013,OK,,Order status updated to DELIVERED
+173,CART_CREATE,CART-0021,OK,,Cart created
+174,CART_ADD,CART-0021,OK,,Product added and stock reserved
+175,CART_ADD,CART-0021,OK,,Product added and stock reserved
+176,CHECKOUT,CART-0021,OK,,Checkout successful. Order ORD-0021. Total Rs. 2947.76
+177,ORDER_STATUS,ORD-0021,OK,,Order status updated to CONFIRMED
+179,ORDER_STATUS,ORD-0018,OK,,Order status updated to DELIVERED
+180,ORDER_STATUS,ORD-0015,OK,,Order status updated to DELIVERED
+181,CART_CREATE,CART-0023,OK,,Cart created
+182,CART_ADD,CART-0023,OK,,Product added and stock reserved
+183,CART_ADD,CART-0023,OK,,Product added and stock reserved
+184,CHECKOUT,CART-0023,OK,,Checkout successful. Order ORD-0023. Total Rs. 1209.46
+185,ORDER_STATUS,ORD-0023,OK,,Order status updated to CONFIRMED
+186,RETURN_REQUEST,ORD-0010,OK,,Return request accepted
+187,ORDER_STATUS,ORD-0021,OK,,Order status updated to PACKED
+188,CART_CREATE,CART-0022,OK,,Cart created
+189,CART_ADD,CART-0022,OK,,Product added and stock reserved
+190,CART_ADD,CART-0022,OK,,Product added and stock reserved
+191,CART_ADD,CART-0022,OK,,Product added and stock reserved
+192,APPLY_COUPON,CART-0022,OK,,Coupon recorded for checkout validation
+193,CHECKOUT,CART-0022,OK,,Checkout successful. Order ORD-0022. Total Rs. 3046.82
+194,ORDER_STATUS,ORD-0022,OK,,Order status updated to CONFIRMED
+195,ORDER_STATUS,ORD-0021,OK,,Order status updated to SHIPPED
+197,ORDER_STATUS,ORD-0023,OK,,Order status updated to PACKED
+198,ORDER_STATUS,ORD-0023,OK,,Order status updated to SHIPPED
+199,CART_CREATE,CART-0024,OK,,Cart created
+200,CART_ADD,CART-0024,OK,,Product added and stock reserved
+201,CART_ADD,CART-0024,OK,,Product added and stock reserved
+202,STOCK_ADJUST,SKU-019,REJECTED,INSUFFICIENT_STOCK,Stock cannot become negative
+203,CHECKOUT,CART-0024,OK,,Checkout successful. Order ORD-0024. Total Rs. 3065.64
+204,ORDER_STATUS,ORD-0022,OK,,Order status updated to PACKED
+205,CART_CREATE,CART-0025,OK,,Cart created
+206,CART_ADD,CART-0025,OK,,Product added and stock reserved
+207,CART_ADD,CART-0025,OK,,Product added and stock reserved
+208,CHECKOUT,CART-0025,OK,,Checkout successful. Order ORD-0025. Total Rs. 1005.82
+209,ORDER_STATUS,ORD-0022,OK,,Order status updated to SHIPPED
+210,ORDER_STATUS,ORD-0025,OK,,Order status updated to CONFIRMED
+212,CART_CREATE,CART-0026,OK,,Cart created
+213,CART_ADD,CART-0026,OK,,Product added and stock reserved
+214,CHECKOUT,CART-0026,OK,,Checkout successful. Order ORD-0026. Total Rs. 5603.88
+215,ORDER_STATUS,ORD-0020,OK,,Order status updated to DELIVERED
+216,ORDER_STATUS,ORD-0026,OK,,Order status updated to CONFIRMED
+217,ORDER_STATUS,ORD-0026,REJECTED,ILLEGAL_TRANSITION,Order transition is not allowed
+218,ORDER_STATUS,ORD-0026,OK,,Order status updated to PACKED
+219,ORDER_STATUS,ORD-0019,OK,,Order status updated to DELIVERED
+220,ORDER_STATUS,ORD-0026,OK,,Order status updated to SHIPPED
+221,ORDER_STATUS,ORD-0025,OK,,Order status updated to PACKED
+223,ORDER_STATUS,ORD-0025,OK,,Order status updated to SHIPPED
+224,CART_CREATE,CART-0029,OK,,Cart created
+225,CART_ADD,CART-0029,OK,,Product added and stock reserved
+226,CHECKOUT,CART-0029,OK,,Checkout successful. Order ORD-0029. Total Rs. 2245.00
+227,ORDER_STATUS,ORD-0029,OK,,Order status updated to CONFIRMED
+228,CART_CREATE,CART-0028,OK,,Cart created
+229,CART_ADD,CART-0028,OK,,Product added and stock reserved
+230,CHECKOUT,CART-0028,OK,,Checkout successful. Order ORD-0028. Total Rs. 588.82
+231,RETURN_RECEIVED,ORD-0010,OK,,Return received. Refund Rs. 0.00
+232,ORDER_STATUS,ORD-0028,OK,,Order status updated to CONFIRMED
+233,ORDER_STATUS,ORD-0021,OK,,Order status updated to DELIVERED
+235,ORDER_STATUS,ORD-0029,OK,,Order status updated to PACKED
+236,CART_CREATE,CART-0031,OK,,Cart created
+237,CART_ADD,CART-0031,OK,,Product added and stock reserved
+238,CART_ADD,CART-0031,OK,,Product added and stock reserved
+239,CART_REMOVE,CART-0031,OK,,Product removed
+240,CART_UPDATE,CART-0031,OK,,Cart quantity updated
+241,CHECKOUT,CART-0031,OK,,Checkout successful. Order ORD-0031. Total Rs. 1132.11
+242,ORDER_STATUS,ORD-0023,OK,,Order status updated to DELIVERED
+243,ORDER_STATUS,ORD-0031,OK,,Order status updated to CONFIRMED
+244,ORDER_STATUS,ORD-0028,OK,,Order status updated to PACKED
+245,ORDER_STATUS,ORD-0029,OK,,Order status updated to SHIPPED
+246,ORDER_STATUS,ORD-0026,OK,,Order status updated to DELIVERED
+247,ORDER_STATUS,ORD-0028,OK,,Order status updated to SHIPPED
+248,CART_CREATE,CART-0030,OK,,Cart created
+249,CART_ADD,CART-0030,OK,,Product added and stock reserved
+250,CART_ADD,CART-0030,OK,,Product added and stock reserved
+251,CART_ADD,CART-0030,OK,,Product added and stock reserved
+252,CHECKOUT,CART-0030,OK,,Checkout successful. Order ORD-0030. Total Rs. 1460.90
+253,ORDER_STATUS,ORD-0030,OK,,Order status updated to CONFIRMED
+254,ORDER_STATUS,ORD-0022,OK,,Order status updated to DELIVERED
+256,ORDER_STATUS,ORD-0031,OK,,Order status updated to PACKED
+257,CART_CREATE,CART-0032,OK,,Cart created
+258,CART_ADD,CART-0032,OK,,Product added and stock reserved
+259,ORDER_STATUS,ORD-0031,OK,,Order status updated to SHIPPED
+260,CART_ADD,CART-0032,OK,,Product added and stock reserved
+261,CART_ADD,CART-0032,OK,,Product added and stock reserved
+262,APPLY_COUPON,CART-0032,OK,,Coupon recorded for checkout validation
+263,CHECKOUT,CART-0032,OK,,Checkout successful. Order ORD-0032. Total Rs. 3950.34
+264,ORDER_STATUS,ORD-0032,OK,,Order status updated to CONFIRMED
+265,ORDER_STATUS,ORD-0030,OK,,Order status updated to PACKED
+266,RETURN_REQUEST,ORD-0021,REJECTED,NON_RETURNABLE,This product cannot be returned
+267,ORDER_STATUS,ORD-0030,OK,,Order status updated to SHIPPED
+268,ORDER_STATUS,ORD-0025,OK,,Order status updated to DELIVERED
+269,ORDER_STATUS,ORD-0025,REJECTED,ILLEGAL_TRANSITION,Order transition is not allowed
+271,ORDER_STATUS,ORD-0032,OK,,Order status updated to PACKED
+272,ORDER_STATUS,ORD-0032,OK,,Order status updated to SHIPPED
+273,CART_CREATE,CART-0033,OK,,Cart created
+274,CART_ADD,CART-0033,OK,,Product added and stock reserved
+275,CHECKOUT,CART-0033,OK,,Checkout successful. Order ORD-0033. Total Rs. 2801.38
+276,ORDER_STATUS,ORD-0033,OK,,Order status updated to CONFIRMED
+278,ORDER_STATUS,ORD-0029,OK,,Order status updated to DELIVERED
+279,ORDER_STATUS,ORD-0028,OK,,Order status updated to DELIVERED
+280,ORDER_STATUS,ORD-0033,OK,,Order status updated to PACKED
+281,ORDER_STATUS,ORD-0033,OK,,Order status updated to SHIPPED
+283,ORDER_STATUS,ORD-0031,OK,,Order status updated to DELIVERED
+284,ORDER_STATUS,ORD-0030,OK,,Order status updated to DELIVERED
+285,RETURN_REQUEST,ORD-0022,OK,,Return request accepted
+287,RETURN_REQUEST,ORD-0023,OK,,Return request accepted
+288,ORDER_STATUS,ORD-0032,OK,,Order status updated to DELIVERED
+290,CART_CREATE,CART-0027,OK,,Cart created
+291,CART_ADD,CART-0027,OK,,Product added and stock reserved
+292,CART_ADD,CART-0027,OK,,Product added and stock reserved
+293,APPLY_COUPON,CART-0027,OK,,Coupon recorded for checkout validation
+294,CHECKOUT,CART-0027,OK,,Checkout successful. Order ORD-0027. Total Rs. 6133.64
+295,ORDER_STATUS,ORD-0027,OK,,Order status updated to CONFIRMED
+296,ORDER_STATUS,ORD-0033,OK,,Order status updated to DELIVERED
+298,ORDER_STATUS,ORD-0027,OK,,Order status updated to PACKED
+299,ORDER_STATUS,ORD-0027,OK,,Order status updated to SHIPPED
+300,RETURN_RECEIVED,ORD-0022,OK,,Return received. Refund Rs. 588.82
+302,RETURN_RECEIVED,ORD-0023,OK,,Return received. Refund Rs. 954.74
+303,RETURN_REQUEST,ORD-0019,OK,,Return request accepted
+305,RETURN_REQUEST,ORD-0020,REJECTED,RETURN_WINDOW_EXPIRED,Return window has expired
+307,RETURN_REQUEST,ORD-0031,OK,,Return request accepted
+308,ORDER_STATUS,ORD-0027,OK,,Order status updated to DELIVERED
+310,RETURN_RECEIVED,ORD-0019,OK,,Return received. Refund Rs. 1309.39
+312,RETURN_RECEIVED,ORD-0031,OK,,Return received. Refund Rs. 566.06
+314,RETURN_REQUEST,ORD-0021,OK,,Return request accepted
+316,RETURN_RECEIVED,ORD-0021,OK,,Return received. Refund Rs. 2653.94

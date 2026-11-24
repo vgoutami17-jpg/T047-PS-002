@@ -151,3 +151,141 @@ SQLite is used to store:
 ## Conclusion
 
 The project demonstrates the implementation of an e-commerce order processing system using Python and SQLite, with inventory management, promotional calculations, checkout, taxation, order tracking, and return processing.
+
+## 1. System Architecture
+
+```mermaid
+flowchart TD
+    A[Input: commands.txt] --> B[Command Processor]
+    B --> C[Command Handler]
+    C --> D[Business Logic]
+    D --> E[SQLite Database]
+    E --> D
+    D --> F[Inventory Management]
+    D --> G[Promotions and Discounts]
+    D --> H[Checkout and GST]
+    D --> I[Order Lifecycle]
+    D --> J[Returns and Refunds]
+    B --> K[Command Log]
+    D --> L[Invoice Generator]
+    K --> M[CSV Output Reports]
+    L --> M
+```
+
+## 2. Order Processing Flowchart
+
+```mermaid
+flowchart TD
+    A([Start]) --> B[Read Command]
+    B --> C{Valid Command?}
+    C -->|No| D[Record Rejection]
+    C -->|Yes| E[Execute Handler]
+    E --> F{Execution Successful?}
+    F -->|No| D
+    F -->|Yes| G[Update Database]
+    G --> H[Record Success]
+    D --> I{More Commands?}
+    H --> I
+    I -->|Yes| B
+    I -->|No| J[Generate CSV Reports]
+    J --> K([End])
+```
+
+## 3. Database Entity Relationship Diagram
+
+```mermaid
+erDiagram
+    CUSTOMERS ||--o{ CARTS : creates
+    CARTS ||--o{ CART_ITEMS : contains
+    PRODUCTS ||--o{ CART_ITEMS : added_to
+    CARTS ||--o{ STOCK_RESERVATIONS : reserves
+    PRODUCTS ||--o{ STOCK_RESERVATIONS : reserved_for
+    CUSTOMERS ||--o{ ORDERS : places
+    CARTS ||--o| ORDERS : checked_out_as
+    ORDERS ||--|{ ORDER_ITEMS : contains
+    PRODUCTS ||--o{ ORDER_ITEMS : purchased_as
+    ORDERS ||--o{ RETURNS : has
+    PRODUCTS ||--o{ RETURNS : returned_as
+
+    CUSTOMERS {
+        string customer_id PK
+        string name
+        string tier
+        string state
+        float wallet_balance
+    }
+    PRODUCTS {
+        string sku_id PK
+        string name
+        string category
+        float selling_price
+        int stock
+        float gst_slab
+        int returnable
+    }
+    CARTS {
+        string cart_id PK
+        string customer_id FK
+        datetime created_at
+        datetime last_activity
+        string status
+    }
+    CART_ITEMS {
+        string cart_id FK
+        string sku_id FK
+        int quantity
+    }
+    STOCK_RESERVATIONS {
+        string cart_id FK
+        string sku_id FK
+        int quantity
+        string status
+    }
+    ORDERS {
+        string order_id PK
+        string cart_id FK
+        string customer_id FK
+        string status
+        float invoice_total
+    }
+    ORDER_ITEMS {
+        int order_item_id PK
+        string order_id FK
+        string sku_id FK
+        int quantity
+        int returned_quantity
+    }
+    RETURNS {
+        int return_id PK
+        string order_id FK
+        string sku_id FK
+        int quantity
+        string refund_mode
+        string status
+    }
+    PROMOTIONS {
+        string promo_id PK
+        string type
+        string code
+        string category
+    }
+```
+
+## 4. Order Lifecycle Diagram
+
+```mermaid
+stateDiagram-v2
+    [*] --> CREATED
+    CREATED --> CONFIRMED
+    CREATED --> CANCELLED
+    CONFIRMED --> PACKED
+    CONFIRMED --> CANCELLED
+    PACKED --> SHIPPED
+    PACKED --> CANCELLED
+    SHIPPED --> DELIVERED
+    DELIVERED --> RETURN_REQUESTED
+    RETURN_REQUESTED --> RETURNED
+    RETURNED --> REFUNDED
+    CANCELLED --> [*]
+    REFUNDED --> [*]
+```

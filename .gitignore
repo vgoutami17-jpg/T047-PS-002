@@ -3,3 +3,7 @@ __pycache__/
 .pytest_cache/
 *.py[cod]
 .git/
+database/*.db
+evaluation_engine_parts_backup.py
+output_test/
+
