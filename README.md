@@ -289,3 +289,25 @@ stateDiagram-v2
     CANCELLED --> [*]
     REFUNDED --> [*]
 ```
+
+
+
+## 🎥 Project Demo
+
+A demonstration video of our **PS-002 – E-commerce Orders, Promotions and Returns Engine** is available below.
+
+The video demonstrates the major functionalities of our project, including:
+
+- Product catalogue management
+- Customer and cart management
+- Stock reservation and cart expiry
+- Discount and coupon calculations
+- Checkout and GST calculations
+- Order creation and order status updates
+- Return processing and refund management
+
+### 📹 Demo Video
+
+[▶ Watch the Project Demonstration](https://1drv.ms/u/c/2dbda83a464f7169/IQDgTlSV_ZqGSregh443yjBZAV5rWATsglEDz3gSfgjML9Y?e=yFkYwv)
+
+The demonstration showcases the working implementation and key features of our project.
