@@ -291,7 +291,6 @@ stateDiagram-v2
 ```
 
 
-
 ## 🎥 Project Demo
 
 A demonstration video of our **PS-002 – E-commerce Orders, Promotions and Returns Engine** is available below.
@@ -308,6 +307,6 @@ The video demonstrates the major functionalities of our project, including:
 
 ### 📹 Demo Video
 
-[▶ Watch the Project Demonstration](https://1drv.ms/u/c/2dbda83a464f7169/IQDgTlSV_ZqGSregh443yjBZAV5rWATsglEDz3gSfgjML9Y?e=yFkYwv)
+[▶ Watch the Project Demonstration](https://drive.google.com/file/d/1Knj05n15i2DihUEqYrkDQZb3bYPGM-pM/view?usp=drivesdk)
 
 The demonstration showcases the working implementation and key features of our project.
